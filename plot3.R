@@ -43,4 +43,4 @@ qplot(data=d, x=year, y=Emissions, colour=type, geom="line",
      ylab="Emissions")
 
 # Save plot to file
-ggsave(file="plot3.png")
+ggsave(file="plot3.png", width=6, height=4, dpi=100)
